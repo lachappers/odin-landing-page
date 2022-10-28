@@ -2,9 +2,83 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+ul {
+
+}
+li {
+
 }
 
 .hero{
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+    .header {
+
+    }
+
+    .top {
+
+    }
+
+        .top-text {
+
+        }
+        .top-pic {
+            
+        }
+
+.rand {
+
+}
+    .rand-title {
+
+    }
+    .rand-pics {
+
+    }
+        .pic-box {
+
+        }
+            .pic {
+
+            }
+            .pic-txt {
+
+            }
+
+.quote {
+    background-color: #e5e7eb;
+}
+    .quote-txt {
+
+    }
+    .quote-aut {
+
+    }
+
+.bot {
+
+}
+    .call {
+
+    }
+        .call-title {
+
+        }
+        .call-txt {
+
+        }
+    .button {
+
+    }
+
+.footer {
+    background-color: #1f2937;
 }
