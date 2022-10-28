@@ -1,28 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
 body {
+    height: 100vh;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
     color:#e5e7eb;
-
-
-    
-}
-
-ul {
-    list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-    
-    gap: 15px;
-}
-li {
-
-}
-a {
-    text-decoration: none;
-    font-size: 18px;
-    color:#e5e7eb;
+    flex-direction: column;
+    justify-content: space-between;   
+    gap: 30px; 
 }
 
 button {
@@ -52,6 +41,8 @@ button {
         display: flex;
         justify-content: space-between;
         align-content: flex-start;
+        gap: 1rem;
+        flex-wrap: wrap;
 
     }
         .logo {
@@ -62,23 +53,42 @@ button {
             flex: none;
             
         }
+        .nav {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            flex-shrink: 1;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+          .nav  a {
+                text-decoration: none;
+                font-size: 18px;
+                color:#e5e7eb;
+            }
 
     .top {
+
         display: flex;
-        justify-content: space-between;
-        align-items: stretch;
+        justify-content: space-evenly;
         padding: 50px 0;
         gap: 40px;
+        align-items: stretch;
+        
+    }
+
+    .top div{
+        flex: 1 1 auto;
     }
 
         .top-text {
+            max-width: 400px;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            width: 50%;
-            max-width: 400px;
-            gap: 5px;
-            flex: 1 0 auto;
+            gap: 2rem;
+
             
         }
             .h-main {
@@ -91,14 +101,14 @@ button {
                 flex: 1;
             }
         .top-pic {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            text-align: center;
             background-color: #6c757d;
-            width: 50%;
             max-width: 400px;
-            flex: 1 0 auto;
-            
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
         }
 
 .rand {
@@ -113,6 +123,7 @@ button {
         font-weight: 900;
         color: #1f2937;
         margin: auto;
+        text-align: center;
     }
     .rand-pics {
         display: flex;
@@ -123,11 +134,11 @@ button {
         .pic-box {
             display: flex;
             flex-direction: column;
-            width: 175px;
+
             justify-content: flex-start;
             align-items: center;
             gap: 5px;
-            
+            flex: 0 0 175px;
 
         }
             .pic {
@@ -147,8 +158,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    padding: 50px 10%;
+    justify-content: center;
+
+    padding: 75px 10%;
+    gap: 50px;
+    
 
 }
     .quote-txt {
@@ -168,29 +182,44 @@ button {
 
 .bot {
     background-color: #3882f6;
+    width: 782px;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
     
 }
     .call {
-        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: center;
     }
         .call-title {
             color: #f9faf8;
             font-size: 24px;
             font-weight: 900;
+            
         }
         .call-txt {
-
+            width: fit-content;
         }
     .bot-but {
-        max-width: 100px;
+        width: 100px;
+        max-height: fit-content;
         border: 1px solid #e5e7eb;
         border-radius: 8px;
         padding: 0px;
         color: #e5e7eb;
-        align-items: center;
+        text-align: center;
     }
 
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 30px;
+    text-align: center;
 }
