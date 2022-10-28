@@ -82,7 +82,9 @@ button {
 
         }
             .pic {
-                border: #3882f6;
+                border-radius: 8px;
+                border: 1px solid #3882f6;
+                padding: 20px;
             }
             .pic-txt {
                 color: #6c757d;
