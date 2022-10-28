@@ -1,27 +1,51 @@
-
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #e5e7eb;
+    font-weight: 400;
+    font-style: normal;
+    color:#e5e7eb;
+    
     
 }
 
 ul {
+    list-style-type: none;
 
 }
 li {
 
 }
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+button {
+    background: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: #e5e7eb;
+    font-weight: 900;
+    font-style: normal;
+    
+}
 
 .hero{
     background-color: #1f2937;
-    color: #f9faf8;
 }
 
     .header {
 
     }
+        .logo {
+            font-size: 24px;
+            color: #f9faf8;
+            font-weight: 900;
+            
+        }
 
     .top {
 
@@ -30,15 +54,26 @@ li {
         .top-text {
 
         }
+            .h-main {
+                font-size: 48px;
+                color: #f9faf8;
+                font-weight: 900 ;
+
+            }
+            .h-sec {
+
+            }
         .top-pic {
-            
+            background-color: #6c757d;
         }
 
 .rand {
 
 }
     .rand-title {
-
+        font-size: 36px;
+        font-weight: 900;
+        color: #1f2937;
     }
     .rand-pics {
 
@@ -47,38 +82,50 @@ li {
 
         }
             .pic {
-
+                border: #3882f6;
             }
             .pic-txt {
-
+                color: #6c757d;
             }
 
 .quote {
     background-color: #e5e7eb;
+    color: #1f2937;
 }
     .quote-txt {
-
+        font-size: 36px;
+        font-weight: 300;
+        font-style: italic;
     }
     .quote-aut {
-
+        font-weight: 900;
+        font-size: 24px;
     }
 
 .bot {
-
+    background-color: #3882f6;
+    
 }
     .call {
-
+        
     }
         .call-title {
-
+            color: #f9faf8;
+            font-size: 24px;
+            font-weight: 900;
         }
         .call-txt {
 
         }
-    .button {
-
+    .bot-but {
+        width: fit-content;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 8px;
+        color: #e5e7eb;
     }
 
 .footer {
     background-color: #1f2937;
+    color: #f9faf8;
 }
