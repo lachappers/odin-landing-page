@@ -4,13 +4,17 @@ body {
     font-weight: 400;
     font-style: normal;
     color:#e5e7eb;
-    
+
+
     
 }
 
 ul {
     list-style-type: none;
-
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 15px;
 }
 li {
 
@@ -30,41 +34,66 @@ button {
     color: #e5e7eb;
     font-weight: 900;
     font-style: normal;
+    max-width: 100px;
     
 }
 
 .hero{
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0px 50px;
+    gap: 50px;
 }
 
     .header {
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
 
     }
         .logo {
             font-size: 24px;
             color: #f9faf8;
             font-weight: 900;
-            
+            align-self: center;
         }
 
     .top {
-
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        padding: 50px 0;
+        gap: 40px;
     }
 
         .top-text {
-
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 5px;
+            flex: 0;
+            
         }
             .h-main {
                 font-size: 48px;
                 color: #f9faf8;
                 font-weight: 900 ;
-
+                flex: auto;
             }
             .h-sec {
-
+                flex: 1;
             }
         .top-pic {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: #6c757d;
+            min-width: 250px;
+            flex: 1;
+            
         }
 
 .rand {
@@ -120,11 +149,12 @@ button {
 
         }
     .bot-but {
-        width: fit-content;
+        max-width: 100px;
         border: 1px solid #e5e7eb;
         border-radius: 8px;
-        padding: 8px;
+        padding: 0px;
         color: #e5e7eb;
+        align-items: center;
     }
 
 .footer {
